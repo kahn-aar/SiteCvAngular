@@ -1,0 +1,43 @@
+header
+{
+	height: 100px;
+	background-image:-webkit-linear-gradient(white, blue);
+	background-image:-moz-linear-gradient(white, blue);
+	background-image:-ms-overflow-style-gradient(white, blue);
+	margin-bottom: 20px;
+	line-height: 100px;
+	vertical-align: middle;
+}
+
+nav div
+{
+	height: 50px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	line-height: 50px;
+	vertical-align: middle;
+	list-style-type: none;
+}
+
+nav div:hover
+{
+	background-color: blue;
+	opacity: 0.5;
+}
+
+.image, .nom
+{
+	display: inline-block;
+}
+
+.image 
+{
+	height: 75px;
+	width: 200px;
+}
+
+img 
+{
+	height: 75px;
+	width: 200px;
+}

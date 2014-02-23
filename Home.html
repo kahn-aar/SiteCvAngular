@@ -1,0 +1,112 @@
+    <!doctype html>
+    <html lang="fr" ng-app="phonecatApp">
+        <head>
+            <meta charset="utf-8">
+            <title>My research {{query}}</title>
+            <link rel="stylesheet" href="./CSS/bootstrap.css">
+            <link rel="stylesheet" href="./CSS/myCss.css">
+            <script src="./AngularJS/angular.min.js"></script>
+            <script src="./js/controllers.js"></script>
+            <script src="./js/jquery.js"></script>
+
+        </head>
+        <body ng-controller="PhoneListCtrl">
+            <header>
+                <div class="image">
+                    <img src="./ressources/logo_utc.png" alt="utc">
+                </div>
+                <div class="nom">
+                    <p>nicolas martin</p>
+                </div>
+            </header>   
+            <div class="container-fluid">
+                <!--Sidebar content-->
+                 <!--
+                   Search: <input ng-model="query">
+                    Sort by:
+                    <select ng-model="query">
+                        <option value="informatique">Info</option>
+                        <option value="mathematiques">Maths</option>
+                    </select>
+                    ajouter : <input ng-model="uvs">
+                    <button ng-click="add();" >Ajouter</button>-->
+                <nav class="col-md-3">
+                    <div onclick="displayContent();">description</div>
+                    <div onclick="displayUv()">uvs</div>
+                    <div onclick="displayXp()">expérience</div>
+                    <div onclick="displayProjets()">projets</div>
+                </nav>
+                <article class="col-md-9 cont">
+                    <h1>{{contenu.titre}}</h1>
+                    <p>{{contenu.contenu}}</p>
+                </article>
+                <article class="col-md-9 uv">
+                    <div ng-repeat="uv in listuv | filter:query">
+                        <div class="panel panel-default link">
+                            <div class="panel-heading ">
+                                <h3 class="panel-title"><a href="#">{{uv.id}}</a>&nbsp;{{uv.name}}</h3>
+                            </div>
+                            <div class="panel-body content">
+                                {{uv.description}}
+                            </div>
+                        </div>
+                    </div>
+                    
+                </article>
+                <article class="col-md-9 xp">
+                    <div ng-repeat="exp in xp">
+                        <div class="panel panel-default link">
+                            <div class="panel-heading ">
+                                <h3 class="panel-title">{{exp.nom}}</h3>
+                            </div>
+                            <div class="panel-body content">
+                                <p>date : {{exp.date}}</p>
+                                <p>{{exp.description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </article>
+                <article class="col-md-9 projets">
+                    <div ng-repeat="proj in projets">
+                        <div class="panel panel-default link">
+                            <div class="panel-heading ">
+                                <h3 class="panel-title">{{proj.nom}}</h3>
+                            </div>
+                            <div class="panel-body content">
+                                <div class="col-md-6">
+                                    <p>langages : {{proj.langages}}</p>
+                                    <p>outils utilisés : {{proj.outils}}</p>
+                                    <p><a href="{{proj.gitHub}}">github</a></p>
+                                    <p>{{proj.description}}</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>ICI image ?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <script type="text/javascript">
+
+                $(".content").hide();
+                displayContent();
+
+                $( document ).ready(function() {
+                    setTimeout(function () {
+                        $(".link").on("click", function() 
+                        {
+                            if($(this).find(".content").css("display") == "none") {
+                                $(".link").find(".content").hide("slow");
+                                $(this).find(".content").show("slow");
+                            }
+                            else{
+                                $(this).find(".content").hide("slow");
+                            }
+
+                        })}, 200);
+                });
+            </script>
+        </body>
+   </html>

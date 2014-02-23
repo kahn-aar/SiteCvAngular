@@ -1,0 +1,394 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"m",
+				"middle"
+			],
+			[
+				"hide",
+				"hideAll"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"bor",
+				"border-style"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"t",
+				"this"
+			],
+			[
+				"phone",
+				"phoneListCtrl"
+			],
+			[
+				"sp",
+				"scope"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"down",
+				"downloadImg"
+			],
+			[
+				"img",
+				"imgUrl"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "uv.json",
+			"settings":
+			{
+				"buffer_size": 295,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "contenu.json",
+			"settings":
+			{
+				"buffer_size": 40,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/controllers.js",
+			"settings":
+			{
+				"buffer_size": 669,
+				"line_ending": "Windows",
+				"name": "var phonecatApp = angular.module('phonecatApp'"
+			}
+		},
+		{
+			"file": "Home.html",
+			"settings":
+			{
+				"buffer_size": 3038,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/myCss.css",
+			"settings":
+			{
+				"buffer_size": 607,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Nicolas/Documents/Codes/Site internet/SiteCvAngular/Home.html",
+		"/C/Users/Nicolas/Documents/Codes/Site internet/SiteCvAngular/test/ControllersTest.js",
+		"/C/Users/Nicolas/Documents/Codes/Site internet/SiteCvAngular/js/phones.json",
+		"/C/Users/Nicolas/Documents/Codes/Site internet/SiteCvAngular/phones.json",
+		"/D/application statistiques/HTML/pkm.html",
+		"/D/application statistiques/HTML/addstats.html",
+		"/D/application statistiques/HTML/attform.html",
+		"/D/application statistiques/HTML/endstats.html",
+		"/D/application statistiques/HTML/forms.css",
+		"/C/Users/Nicolas/Documents/Codes/Python/ScriptWeb/script_recuperation_site.py",
+		"/C/Users/Nicolas/Documents/Codes/Python/class_test.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n",
+			";\n",
+			"divBoutton",
+			"'])"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "uv.json",
+					"settings":
+					{
+						"buffer_size": 295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "contenu.json",
+					"settings":
+					{
+						"buffer_size": 40,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/controllers.js",
+					"settings":
+					{
+						"buffer_size": 669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								544,
+								544
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var phonecatApp = angular.module('phonecatApp'",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Home.html",
+					"settings":
+					{
+						"buffer_size": 3038,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								597,
+								597
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/myCss.css",
+					"settings":
+					{
+						"buffer_size": 607,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								562,
+								562
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 202.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
