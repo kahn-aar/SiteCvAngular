@@ -4,20 +4,40 @@
 		"selected_items":
 		[
 			[
+				"bl",
+				"black"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"paf",
+				"padding-left"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"dip",
+				"display"
+			],
+			[
+				"im",
+				"background-image"
+			],
+			[
 				"m",
 				"middle"
 			],
 			[
 				"hide",
 				"hideAll"
-			],
-			[
-				"bac",
-				"background-color"
-			],
-			[
-				"margin",
-				"margin-bottom"
 			],
 			[
 				"list",
@@ -72,35 +92,18 @@
 	"buffers":
 	[
 		{
-			"file": "uv.json",
+			"file": "ressources/json/otherXp.json",
 			"settings":
 			{
-				"buffer_size": 295,
+				"buffer_size": 716,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "contenu.json",
+			"file": "readme.md",
 			"settings":
 			{
-				"buffer_size": 40,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/controllers.js",
-			"settings":
-			{
-				"buffer_size": 669,
-				"line_ending": "Windows",
-				"name": "var phonecatApp = angular.module('phonecatApp'"
-			}
-		},
-		{
-			"file": "Home.html",
-			"settings":
-			{
-				"buffer_size": 3038,
+				"buffer_size": 255,
 				"line_ending": "Windows"
 			}
 		},
@@ -108,7 +111,72 @@
 			"file": "css/myCss.css",
 			"settings":
 			{
-				"buffer_size": 607,
+				"buffer_size": 1079,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/controllers.js",
+			"settings":
+			{
+				"buffer_size": 2579,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ressources/json/types.json",
+			"settings":
+			{
+				"buffer_size": 285,
+				"line_ending": "Windows",
+				"name": "["
+			}
+		},
+		{
+			"file": "ressources/json/projets.json",
+			"settings":
+			{
+				"buffer_size": 635,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ressources/json/xp.json",
+			"settings":
+			{
+				"buffer_size": 746,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ressources/json/uv.json",
+			"settings":
+			{
+				"buffer_size": 6826,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 7111,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ressources/json/skills.json",
+			"settings":
+			{
+				"buffer_size": 831,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ressources/json/informations_generales.json",
+			"settings":
+			{
+				"buffer_size": 197,
 				"line_ending": "Windows"
 			}
 		}
@@ -137,7 +205,18 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Nicolas/Documents/Codes/Site internet/SiteCvAngular/ressources/json/phones.json",
+		"/C/Users/Nicolas/Documents/Codes/Site internet/SiteCvAngular/ressources/json/skills.json",
+		"/C/Users/Nicolas/Documents/Codes/Site internet/SiteCvAngular/ressources/json/informations_generales.json",
 		"/C/Users/Nicolas/Documents/Codes/Site internet/SiteCvAngular/Home.html",
+		"/C/Users/Nicolas/Documents/Codes/Site internet/MyApplication/MyApplication/Content/css/new.css",
+		"/C/Users/Nicolas/Documents/Codes/Site internet/SiteCvAngular/xp.json",
+		"/C/Users/Nicolas/Documents/Codes/Site internet/SiteCvAngular/projets.json",
+		"/C/Users/Nicolas/Documents/Codes/Site internet/SiteCvAngular/uv.json",
+		"/C/Users/Nicolas/Documents/Codes/Site internet/SiteCvAngular/contenu.json",
+		"/C/Users/Nicolas/Documents/Codes/Site internet/SiteCvAngular/informations_generales.json",
+		"/C/Users/Nicolas/Documents/Codes/Site internet/SiteCvAngular/skills.json",
+		"/C/Users/Nicolas/Documents/Codes/Site internet/SiteCvAngular/js/controllers.js",
 		"/C/Users/Nicolas/Documents/Codes/Site internet/SiteCvAngular/test/ControllersTest.js",
 		"/C/Users/Nicolas/Documents/Codes/Site internet/SiteCvAngular/js/phones.json",
 		"/C/Users/Nicolas/Documents/Codes/Site internet/SiteCvAngular/phones.json",
@@ -186,23 +265,23 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "uv.json",
+					"file": "ressources/json/otherXp.json",
 					"settings":
 					{
-						"buffer_size": 295,
+						"buffer_size": 716,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								295,
-								0
+								210,
+								210
 							]
 						],
 						"settings":
@@ -218,18 +297,127 @@
 				},
 				{
 					"buffer": 1,
-					"file": "contenu.json",
+					"file": "readme.md",
 					"settings":
 					{
-						"buffer_size": 40,
+						"buffer_size": 255,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								40,
-								40
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/myCss.css",
+					"settings":
+					{
+						"buffer_size": 1079,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6,
+								6
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/controllers.js",
+					"settings":
+					{
+						"buffer_size": 2579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								314,
+								314
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 24.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "ressources/json/types.json",
+					"settings":
+					{
+						"buffer_size": 285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								283,
+								283
+							]
+						],
+						"settings":
+						{
+							"auto_name": "[",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "ressources/json/projets.json",
+					"settings":
+					{
+						"buffer_size": 635,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
 							]
 						],
 						"settings":
@@ -244,27 +432,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "js/controllers.js",
+					"buffer": 6,
+					"file": "ressources/json/xp.json",
 					"settings":
 					{
-						"buffer_size": 669,
+						"buffer_size": 746,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								544,
-								544
+								1,
+								1
 							]
 						],
 						"settings":
 						{
-							"auto_name": "var phonecatApp = angular.module('phonecatApp'",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -273,19 +459,46 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "Home.html",
+					"buffer": 7,
+					"file": "ressources/json/uv.json",
 					"settings":
 					{
-						"buffer_size": 3038,
+						"buffer_size": 6826,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								597,
-								597
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 7111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2436,
+								2436
 							]
 						],
 						"settings":
@@ -295,33 +508,60 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 655.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "css/myCss.css",
+					"buffer": 9,
+					"file": "ressources/json/skills.json",
 					"settings":
 					{
-						"buffer_size": 607,
+						"buffer_size": 831,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								562,
-								562
+								598,
+								598
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 202.0,
+						"translation.y": 439.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "ressources/json/informations_generales.json",
+					"settings":
+					{
+						"buffer_size": 197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

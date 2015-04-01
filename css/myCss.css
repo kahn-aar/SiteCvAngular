@@ -9,7 +9,7 @@ header
 	vertical-align: middle;
 }
 
-nav div
+.nav div
 {
 	height: 50px;
 	border-bottom: 1px solid black;
@@ -17,11 +17,21 @@ nav div
 	line-height: 50px;
 	vertical-align: middle;
 	list-style-type: none;
+	padding-left: 20px;
 }
 
-nav div:hover
+.nav div:hover
 {
-	background-color: blue;
+	height: 60px;
+	opacity: 0.5;
+}
+
+.nav .active
+{
+	height: 60px;
+	background-image:-webkit-linear-gradient(white, grey);
+	background-image:-moz-linear-gradient(white, grey);
+	background-image:-ms-overflow-style-gradient(white, grey);
 	opacity: 0.5;
 }
 
@@ -36,8 +46,37 @@ nav div:hover
 	width: 200px;
 }
 
-img 
+header img 
 {
 	height: 75px;
 	width: 200px;
+}
+
+.contact
+{
+	margin-top: 20px;
+}
+
+.projets img 
+{
+	height: 200px;
+	width: 400px;
+}
+
+article .titre
+{
+	text-align: center;
+	border-bottom: 2px solid black;
+	margin-bottom: 20px;
+}
+
+.filtre
+{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+p 
+{
+	text-align: justify;
 }
